@@ -77,6 +77,8 @@ const SettingModal: React.FC<SettingModalProps> = ({ currentUser, onClose, isOpe
                     src={image || currentUser?.image || '/image/placeholder.jpg'}
                     className='rounded-full'
                     alt='avatar'
+                    width={48}
+                    height={48}
                   />
                   <CldUploadButton
                     options={{ maxFiles: 1 }}
