@@ -75,15 +75,15 @@ const ConversationList: React.FC<ConversationListProps> = ({ initialItems, users
       <aside
         className={clsx(
           `fixed 
-        inset-y-0 
-        pb-20 
-        lg:pb-0 
-        lg:left-20  
-        lg:block 
-        lg:w-80
-        overflow-y-auto
-        border-r
-        border-gray-200`,
+          inset-y-0 
+          pb-20 
+          lg:pb-0 
+          lg:left-20  
+          lg:block 
+          lg:w-80
+          overflow-y-auto
+          border-r
+          border-gray-200`,
           isOpen ? 'hidden' : 'block w-full left-0',
         )}
       >
